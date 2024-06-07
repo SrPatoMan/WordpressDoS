@@ -5,7 +5,7 @@ import socket
 import threading
 
 target_addr = 'example.com' # CHANGE THIS
-target_port = '443' # CHANGE THIS IF YOU NEED
+target_port = 443 # CHANGE THIS IF YOU NEED
 
 # SOCKET CLIENTE
 socket_cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
